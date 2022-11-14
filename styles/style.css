@@ -1,10 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Poppins:wght@700&family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sono', sans-serif;
+   
 }
-@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+
 body{
     width: 100vw;
     height: 100vh;
@@ -12,10 +15,26 @@ body{
 }
 nav{
     width: 100%;
-    height: fit-content;
+    display: flex;
+ justify-content: center;
     padding: 10px;
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+#nav-links{
+    margin-top: 2em;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 7em;
+}
+#brand{
+    
+    margin-bottom: 7em;
 }
 nav ul{
     display: flex;
@@ -27,9 +46,12 @@ nav ul li{
     list-style: none;
 }
 nav ul li a{
-    color: #808080;
+    color: #eee;
     text-decoration: none;
     margin: 0 10px;
+    padding: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 5px;
 }
 footer{
     position: fixed;
@@ -44,9 +66,10 @@ footer{
     padding: 10px;
 }
 footer p a{
-    color: #808080;
+    color: #cecccc;
     text-decoration: none;
     margin: 0 5px;
+    
 }
 div{
     color: #808080;
@@ -64,36 +87,18 @@ div{
 
 }
 h1{
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 4rem;
-    background: linear-gradient(126deg, #90f578, #00c5b9, #097eed, #761af2, #f53f99, #e56f42);
-    background-size: 1200% 1200%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: txt-anim 12s ease infinite;
-    -moz-animation: txt-anim 12s ease infinite;
-    animation: txt-anim 12s ease infinite;
-    -webkit-font-smoothing: antialiased;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-@-webkit-keyframes txt-anim {
-    0%{background-position:0% 24%}
-    50%{background-position:100% 77%}
-    100%{background-position:0% 24%}
-}
-@-moz-keyframes txt-anim {
-    0%{background-position:0% 24%}
-    50%{background-position:100% 77%}
-    100%{background-position:0% 24%}
-}
-@keyframes txt-anim {
-    0%{background-position:0% 24%}
-    50%{background-position:100% 77%}
-    100%{background-position:0% 24%}
-}
+
 div p{
     font-size: 1.2rem;
     margin:20px 0;
+    font-family: 'Roboto';
 }
 div txt{
     margin: 20px 0;
@@ -130,5 +135,18 @@ button{
     background-color: #FEFEFE;
 }
 button:hover{
-    background-color: #cecccc;
+    background: none;
+    color: #cecccc;
+    border: 1px solid #cecccc;
+    cursor: pointer;
 }
+
+
+footer p a i{
+    font-size: 30px;
+    color: #cecccc;
+}
+p a#privacypolicy{
+
+    font-family: 'Roboto' sans-serif;
+} 

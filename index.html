@@ -9,11 +9,15 @@
     <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script src="scripts/script.js"></script>
-   
+    <script src="https://kit.fontawesome.com/a0eb8d6178.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <nav>
+        <div id="brand">
+            <img id="logo" src="./assets/logo.png">
+        </div>
+        <div id="nav-links">
         <ul>
             <li><a href="#">Contact</a></li>
             /
@@ -21,20 +25,28 @@
             /
             <li><a href="#">About</a></li>
         </ul>
+    </div>
+    <div> <p id="socials">
+        <a  id="social-icons"  href="#"><i class="fa-brands fa-instagram"></i></a>
+        
+        <a id="social-icons" href="#"><i class="fa-brands fa-twitter"></i></a>
+        
+        <a id="social-icons" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    </p></div>
     </nav>
 
    
     <div>
         <!-- <p id="title">Zero Academy</p> -->
         <h1>Coming soon</h1>
-        <p>Join Zero Academy today and change your life forever!</p>
+        <p >Join Zero Academy today and change your life forever!</p>
         <span>
             <input id="email" type="email">
             <button id="btn">Notify Me</button>
             
         </span>
         <txt>
-            *_Notify me when App Zero Academy is launched_*
+            *Dont worry we wont spam you*
         </txt>
     </div>
 
@@ -53,14 +65,14 @@
 
     <footer>
         <p>
-            Privacy Policy
+          <a id="privacypolicy" href="#">Privacy Policy</a>
         </p>
         <p id="socials">
-            <a href="#">Instagram</a>
-            /
-            <a href="#">Twitter</a>
-            /
-            <a href="#">LinkedIn</a>
+            <a  id="social-icons"  href="#"><i class="fa-brands fa-instagram"></i></a>
+            
+            <a id="social-icons" href="#"><i class="fa-brands fa-twitter"></i></a>
+            
+            <a id="social-icons" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
         </p>
     </footer>
    
