@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sono', sans-serif;
+   
 }
 :root
 {
@@ -109,3 +109,13 @@ footer{
     position: fixed;
     bottom: 0;
 }
+
+
+ p a i{
+    font-size: 30px;
+    color: #cecccc;
+}
+p a#privacypolicy{
+
+    font-family: 'Roboto' sans-serif;
+} 
