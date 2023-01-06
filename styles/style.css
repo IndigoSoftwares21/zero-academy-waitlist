@@ -20,7 +20,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: var(--white);
-    padding: 20px;
+    padding: 40px;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
@@ -104,18 +104,38 @@ button{
     background-color: var(--blue);
     color: var(--white);
 }
+button:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    color: var(--textgray);
+}
 footer{
     display: inline-flex;
     position: fixed;
     bottom: 0;
+    margin-bottom: 10px;
 }
 
-
+p a{
+    margin: 0 10px;
+}
  p a i{
     font-size: 30px;
-    color: #cecccc;
+    color: var(--textgray);
 }
 p a#privacypolicy{
 
     font-family: 'Roboto' sans-serif;
 } 
+.popup{
+    position: absolute;
+    height: 330px;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
